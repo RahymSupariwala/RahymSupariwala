@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Rahym Supariwala - Young Entrepreneur</title>
+    <style>
+      /* Add styles for the page here */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        color: #333;
+      }
+      h1 {
+        text-align: center;
+        color: #3c3c3c;
+        font-weight: bold;
+        font-size: 36px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 30px;
+        background-color: #fff;
+        border-radius: 10px;
+      }
+      .section-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      .about-me {
+        margin-bottom: 50px;
+      }
+      .about-me p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+      .call-booking {
+        background-color: #3498db;
+        color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 18px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Rahym Supariwala - Young Entrepreneur</h1>
+    <div class="container">
+      <div class="about-me">
+        <div class="section-title">About Me</div>
+        <p>My name is Rahym Supariwala and I am a young entrepreneur with a passion for creating impactful solutions for businesses and individuals alike. My work experience and skills have enabled me to help companies grow and reach their full potential. I am always looking for new opportunities to apply my expertise and knowledge to make a positive difference in the world.</p>
+        <p>My interests include staying up-to-date with the latest technologies and trends, reading about business and entrepreneurship, and engaging in outdoor activities such as hiking and camping. I am constantly learning and seeking new challenges to further develop my skills and knowledge.</p>
+      </div>
+      <div class="section-title">My Skills</div>
+      <!-- Add a list of your skills here -->
+      <ul>
+        <li>Business strategy and planning</li>
+        <li>Marketing and sales</li>
+        <li>Technology and innovation</li>
+        <li>Leadership and team management</li>
+        <li>Problem solving and critical thinking</li>
+      </ul>
+      <div class="call-booking" onclick="window.open('https://meet.google.com/')">
+        Book a call with me on Google Meet
+      </div>
+    </div>
